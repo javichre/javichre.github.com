@@ -1,0 +1,19 @@
+<img src="https://i.ibb.co/gjqrKvr/bigdata.png" alt="bigdata" border="0">
+
+
+<img src="https://i.ibb.co/9v2drwY/bogota.jpg" alt="bogota" border="0">
+
+
+<img src="https://i.ibb.co/Th5Qkvn/campus.jpg" alt="campus" border="0">
+<img src="https://i.ibb.co/p0nVHBX/holber1.jpg" alt="holber1" border="0">
+<img src="https://i.ibb.co/sVKXT3f/holberton.jpg" alt="holberton" border="0">
+<img src="https://i.ibb.co/9rMZBm2/javasc.png" alt="javasc" border="0">
+<img src="https://i.ibb.co/mFGLN7c/javascripts.png" alt="javascripts" border="0">
+<img src="https://i.ibb.co/Qpf9vWh/logo.png" alt="logo" border="0">
+<img src="https://i.ibb.co/M2LGz6m/machin.jpg" alt="machin" border="0">
+<img src="https://i.ibb.co/vXYs4YV/medellin.jpg" alt="medellin" border="0">
+<img src="https://i.ibb.co/qC89nRL/sql.png" alt="sql" border="0">
+<img src="https://i.ibb.co/PxzLfBP/welcome.png" alt="welcome" border="0">
+<img src="https://i.ibb.co/JKZ3kxv/cali.jpg" alt="cali" border="0">
+
+ <link  href="style.css" rel="stylesheet" >

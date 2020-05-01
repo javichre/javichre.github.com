@@ -1,0 +1,202 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .contenedor img {
+        max-width: 90%;
+
+    }
+
+    h2 {
+        color: #184175;
+        width: 80%;
+    }
+
+    h1 {
+        color: #184175;
+    }
+
+    p {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .contenedor {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        /* flex */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px;
+        /* flex*/
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #5a89ae;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+
+    header .logo {
+        color: white;
+        font-size: 20px;
+    }
+
+    header .logo img {
+        width: 150px;
+        vertical-align: top;
+    }
+
+    header .logo a {
+        color: white;
+        text-decoration: none;
+        line-height: 35px;
+    }
+
+    header nav {
+        width: 50%;
+        /* flex*/
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    header nav a {
+        background-color: #71acda;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+        /* flex*/
+        flex-grow: 1;
+    }
+
+    header nav a:hover {
+        background: #e74c3c;
+    }
+
+    .main {
+        width: 100%;
+        background: whitesmoke;
+        padding: 20px;
+        /* flex: 1 1 70%; */
+        flex: 1;
+    }
+
+    .main article {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* esto hace que no se le agrege al ultimo hijo*/
+
+    .main article:nth-last-child(1) {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    aside {
+        background-color: #e6ecf2;
+        width: 100%;
+        padding: 20px;
+        /*flex*/
+        /* flex: 1 1 30%;*/
+        flex: 0 0 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    aside .widget {
+        height: 150px;
+        margin: 10px;
+    }
+
+
+    .contact {
+        background-color: #82a0c2;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+
+    .contact h2 {
+        text-align: center;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .row {
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    footer {
+        background-color: #5a89ae;
+        width: 100%;
+        /*flex*/
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+
+    footer a {
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        padding-left: 20px;
+    }
+
+    footer a:hover {
+        background: #89cff0;
+    }
+
+    @media screen and (max-width: 800px) {
+        .contenedor {
+            flex-direction: column;
+        }
+
+        header {
+            flex-direction: column;
+            padding: 0;
+        }
+
+        header .logo {
+            margin: 20px 0;
+        }
+
+        header nav {
+            width: 100%;
+        }
+
+        aside {
+            flex-direction: row;
+            flex: 0;
+        }
+
+        aside .widget {
+            flex-grow: 1;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        aside {
+            flex-direction: column;
+        }
+
+        footer {
+            justify-content: space-around;
+        }
+    }

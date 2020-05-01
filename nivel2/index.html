@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/logo_1.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <a href="index.html"> <img src="https://i.ibb.co/Qpf9vWh/logo.png" alt="logo" border="0"></a>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="tweets.html">Tweets</a>
+                <a href="recintos.html">Campus</a>
+                <a href="#contacto">Contact</a>
+            </nav> <br>
+            <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                data-show-count="false">Follow @TwitterDev</a><br>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div id="fb-root"></div>
+            <script>
+                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+
+            <!-- Your share button code -->
+            <div class="fb-share-button" data-href="https://www.your-domain.com/your-page.html"
+                data-layout="button_count">
+            </div>
+        </header>
+        <section class="main">
+            <article>
+                <iframe width="90%" height="auto" src="https://www.youtube.com/embed/dQWK5nUP0a8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </article>
+            <br>
+            <br>
+            <article>
+                <h2>
+                    We help you to master the latest technologies
+                </h2>
+                <h4>
+                    Know some of the skills that our students develop
+                </h4>
+                <br> <br>
+                <img src="https://i.ibb.co/M2LGz6m/machin.jpg" alt="machin" border="0">
+                <h2 class="titulo">Machin Learning</h2>
+                <p>
+                    Machine learning is an artificial intelligence (AI) application that gives systems the ability to
+                    learn and improve automatically from experience without being explicitly programmed.
+                </p>
+            </article>
+            <article>
+                <img src="https://i.ibb.co/gjqrKvr/bigdata.png" alt="bigdata" border="0">
+                <br>
+                <br>
+                <h2 class="titulo">Big Data</h2>
+                <p>
+                    Big data is a field that deals with ways of systematically analyzing, extracting information from,
+                    or otherwise dealing with datasets that are too large or complex to be handled by traditional data
+                    processing application software.
+                </p>
+            </article>
+            <article>
+                <img src="https://i.ibb.co/Zgh87GT/dev2.jpg" alt="dev2" border="0">
+                <br>
+                <br>
+                <h2 class="titulo">Programmer Full stack</h2>
+                <p>
+                    Normally companies demand a full-stack developer when they look for a technical person, usually a
+                    computer programmer, who knows well and is familiar with all facets of the front-end and back-end
+                    and the different operating systems and components that
+                    remain in the middle of those borders.
+                </p>
+            </article>
+            <div class="contact" id="contacto">
+                <h2>
+                    Contact us and ask for information
+                </h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="">Name</label>
+                        <input type="text" placeholder="full name" class=" form-control" id="nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="">E-mail</label>
+                        <input type="email" placeholder="email" class=" form-control" id="correo">
+                    </div>
+                    <div class="col-md-6">
+                        <br>
+                        <label for="">Phone</label>
+                        <input type="tel" placeholder="phone number" class=" form-control" id="telefono">
+                    </div>
+                    <div class="col-md-6">
+                        <br>
+                        <label for="">Campus</label>
+                        <select name="" id="" class=" form-control" id="campus">
+                            <option value="">Select am option</option>
+                            <option value="">Bogota Colombia </option>
+                            <option value=""> Beirut, Lebanon </option>
+                            <option value="">Tunis, Tunisia</option>
+                            <option value="">New Haven, CT, USA</option>
+                            <option value="">Cali, Colombia</option>
+                            <option value="">Barranquilla, Colombia </option>
+                            <option value="">Medellin Colombia</option>
+                            <option value="">Tulsa, OK, USA</option>
+                            <option value="">San Francisco, CA, USA</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <br>
+                        <input onclick="validar()" type="button" value="Actualizar" class="btn btn-primary" />
+                        <br> <br>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+        <br>
+        <br>
+        <br>
+        <aside>
+            <div id="disqus_thread"></div>
+            <script>
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document,
+                        s = d.createElement('script');
+                    s.src = 'https://http-3-87-154-65.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                    by Disqus.</a></noscript>
+        </aside>
+        <br>
+        <footer>
+            
+              
+          
+            <div>
+               
+                <a href="https://www.holbertonschool.com" target="_blank"><img src="img/logo.png" alt=""></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/funciones.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
