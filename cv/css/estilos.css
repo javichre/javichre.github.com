@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding-top: 25px;
+}
+
+header p {
+    display: inline-block;
+    color: white;
+    font-weight:bold;
+}
+
+
+header h1 {
+    display: inline-block;
+    color: white;
+    font-weight:bold;
+    padding-bottom: 30px;
+}
+
+.header-parrafo1{
+    width: 400px;
+    height: 35px;
+}
+
+.cv{
+    background-color: #d5f1f3;
+    padding: 10px;
+
+   
+}
+
+.cv p{
+    text-align: center;
+}
+
+.educacion{
+    width: 70%;
+    margin-left: 15%;    
+}
+.educacion img{
+    width: 250px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+.educacion h3{
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.datos-listas dl dt {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.datos-listas dl dd{
+    padding-left: 25px;
+}
+.datos-listas ul{
+    margin-left: 30px;
+}
+
+.datos-listas-dd{
+   padding-bottom: 10px;
+   padding-left: 30px;
+  
+}
