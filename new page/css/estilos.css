@@ -1,0 +1,152 @@
+p{
+    text-align: justify;
+}
+
+.header-a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header-donate {
+    margin-top: 10px;
+    color: white !important;
+    border-radius: 50px;
+}
+
+
+.header-a:hover {
+    background-color: #91C8FF;
+    border-radius: 50px;
+    padding: 5px;
+}
+.contacto{
+    padding-top: 20px;
+    padding-right: 10px;
+    color: black !important;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.causas {
+    width: 90%;
+    padding-left: 5%;
+}
+
+.causas img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+}
+.causa img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.causa a{
+    border-radius: 50px;
+}
+
+.causas a {
+    border-radius: 50px;
+}
+
+.causas h2 {
+    color: #ffffff;
+}
+
+contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-h2 {
+    color: #007bff;
+}
+
+.about img {
+    border-radius: 10px;
+    width: 90%;
+}
+
+.contenedor-galeria {
+    width: 90%;
+}
+
+.galeria {
+    background-color: gray;
+    padding-top: 25px;
+    height: auto;
+}
+
+.galeria img {
+    border-radius: 10px;
+}
+
+.abajo{
+    background-color: #252b28;
+}
+
+footer p{
+    text-align: center;
+}
+footer h3{
+    text-align:center;
+}
+footer h3{
+    text-align: center;
+}
+
+footer img {
+ padding-top: 50px;
+
+    width: 300px;
+    height: auto;
+    
+}
+
+video{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.donate{
+  background-color: #007bff;
+  padding: 0px;
+  border-radius: 50px;
+}
+
+.site-section{
+    text-align:left;
+}
+
+.parrafo{
+    text-align: center;
+    
+}
